@@ -1,33 +1,24 @@
 //countdown timer
 
+var tijd = 0;
+var countdownTimer;
+
 //tijd moet als input moeten kunnen worden meegegeven.
 //er moet per seconde tijd afgehaald worden van het totaal (minuut ook en evt. uur).
 //het moet live worden afgespeeld op de pagina.
-var uren = 0;
-var minuten = 0;
-var input = document.getElementById("input");
-var knop = document.getElementById("knop");
 knop.addEventListener("click", function () {
-    var tijd = input.value;
+    var input = document.getElementById("input");
+    tijd = input.value;
+    countdownTimer = setInterval("timer()", 1000);
+});
+
+function timer () {
     var hoursAndMinutes = tijd.split(":");
     var uren = hoursAndMinutes[0];
     var minuten = hoursAndMinutes[1];
-});
-document.getElementById("test"). innerHTML = uren;
-document.getElementById("test2"). innerHTML = minuten;
-
-
-
-
-
-
-
-
-
-
-
-
-
+    var seconden = 0;
+    document.getElementById("test").innerHTML = uren + ":" + minuten + ":" + seconden;
+}
 
 
 
