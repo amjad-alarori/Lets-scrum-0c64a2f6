@@ -1,0 +1,5 @@
+Choice Time: Friday 12-06-2019 10:08:05 amjad is vandaag present
+Input Time: Friday 12-06-2019 10:08:11 Planning voor vandaag van amjad: js, Lets count, 2
+Choice Time: Friday 12-06-2019 10:08:19 amjad is vandaag absent
+Input Time: Friday 12-06-2019 10:08:23 Opgegeven reden van amjad: ziek
+Choice Time: Friday 12-06-2019 10:42:08 aa is vandaag present
