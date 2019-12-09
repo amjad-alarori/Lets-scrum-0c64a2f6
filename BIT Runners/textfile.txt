@@ -1,11 +1,2 @@
-Choice Time: Wednesday 12-04-2019 07:59:55 gsdds is vandaag present
-Input Time: Wednesday 12-04-2019 07:59:57 Planning voor vandaag van gsdds: szxs
-Choice Time: Wednesday 12-04-2019 08:00:00 czz is vandaag absent
-Input Time: Wednesday 12-04-2019 08:00:02 Opgegeven reden van czz: fvdx
-Choice Time: Wednesday 12-04-2019 08:04:15 bob is vandaag present
-Input Time: Wednesday 12-04-2019 08:04:29 Planning voor vandaag van bob: coachen
-Choice Time: Wednesday 12-04-2019 08:04:46 bob is vandaag absent
-Input Time: Wednesday 12-04-2019 08:04:52 Opgegeven reden van bob: ziek
-Choice Time: Wednesday 12-04-2019 08:28:14 Guillermo is vandaag absent
-Input Time: Wednesday 12-04-2019 08:28:16 Opgegeven reden van Guillermo: dfads
-Logout Time: Wednesday 12-04-2019 08:28:17 Van Guillermo
+Choice Time: Monday 12-09-2019 09:55:30 Guillermo is vandaag present
+Input Time: Monday 12-09-2019 09:55:33 Planning voor vandaag van Guillermo: 
