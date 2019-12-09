@@ -16,3 +16,23 @@ Choice Time: Monday 12-09-2019 07:40:54 iemand is vandaag absent
 Input Time: Monday 12-09-2019 07:41:02 Opgegeven reden van iemand: 
 Logout Time: Monday 12-09-2019 08:23:02 Van iemand
 Logout Time: Monday 12-09-2019 09:45:12 Van 
+Logout Time: Monday 12-09-2019 10:25:20 Van 
+Logout Time: Monday 12-09-2019 11:40:09 Van 
+Choice Time: Monday 12-09-2019 11:40:14 maurits is vandaag absent
+Input Time: Monday 12-09-2019 11:40:20 Opgegeven reden van maurits: 
+Logout Time: Monday 12-09-2019 11:42:46 Van maurits
+Choice Time: Monday 12-09-2019 11:42:51 iemand is vandaag present
+Input Time: Monday 12-09-2019 11:42:58 Planning voor vandaag van iemand: 
+Logout Time: Monday 12-09-2019 11:56:48 Van iemand
+Logout Time: Monday 12-09-2019 12:04:38 Van 
+Choice Time: Monday 12-09-2019 12:04:44 iemand is vandaag absent
+Input Time: Monday 12-09-2019 12:04:52 Opgegeven reden van iemand: 
+Logout Time: Monday 12-09-2019 12:04:57 Van iemand
+Logout Time: Monday 12-09-2019 12:54:02 Van 
+Choice Time: Monday 12-09-2019 12:54:06 Maurits is vandaag present
+Input Time: Monday 12-09-2019 12:54:10 Planning voor vandaag van Maurits: 
+Logout Time: Monday 12-09-2019 01:10:00 Van Maurits
+Logout Time: Monday 12-09-2019 01:32:54 Van 
+Choice Time: Monday 12-09-2019 01:32:58 Maurits is vandaag absent
+Input Time: Monday 12-09-2019 01:33:02 Opgegeven reden van Maurits: 
+Logout Time: Monday 12-09-2019 01:33:35 Van Maurits

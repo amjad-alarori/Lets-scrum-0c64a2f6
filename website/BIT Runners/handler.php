@@ -56,8 +56,8 @@ if(isset($_POST["submit-logout"])) {
     $user = "Logout Time: " . $date . " Van " . $_SESSION["name"] . PHP_EOL;
     fwrite($file, $user) or die("Can't write to file.");
     fclose($file) or die("Can't close file.");
-    setcookie("naam",$name, -3600);
-    setcookie("presentie",$$choice, -3600);
+    setcookie("naam",$name, -7200);
+    setcookie("presentie", $choice, -7200);
     session_destroy();
     header("location:login.php");
 }

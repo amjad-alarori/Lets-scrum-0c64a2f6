@@ -19,35 +19,40 @@
         </form>
 
     </div>
-    <div class="topinfo">
-        <h1>
-            Goedemorgen, <? echo $_COOKIE["naam"]; ?>!
-        </h1>
-        <h3>
-            Je bent vandaag <? echo $_COOKIE["presentie"]; ?>!
-        </h3>
+
+    <div class="fullpage">
+
+        <div class="topinfo">
+            <h1>
+                Goedemorgen, <? echo $_COOKIE["naam"]; ?>!
+            </h1>
+            <h3>
+                Je bent vandaag <? echo $_COOKIE["presentie"]; ?>!
+            </h3>
+        </div>
+
+        <div class="content">
+            <div class="planningGisteren">
+                <h4 class="planningGisterenFont">
+                    Planning gisteren:
+                </h4><br>
+                <div class="planningGisterenContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consequatur ea earum facilis, inventore placeat quas? Accusamus amet at blanditiis, corporis, explicabo facilis illum, minus natus possimus quisquam sapiente.</div>
+            </div>
+            <div class="planningVandaag">
+                <h4 class="planningVandaagFont">
+                    Planning vandaag:
+                </h4><br>
+                <div class="planningVandaagContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consequatur ea earum facilis, inventore placeat quas? Accusamus amet at blanditiis, corporis, explicabo facilis illum, minus natus possimus quisquam sapiente.</div>
+            </div>
+            <div class="presentie">
+                <h4 class="presentieFont">
+                    Presentie:
+                </h4><br>
+                <div class="presentieContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consequatur ea earum facilis, inventore placeat quas? Accusamus amet at blanditiis, corporis, explicabo facilis illum, minus natus possimus quisquam sapiente.</div>
+            </div>
+        </div>
     </div>
 
-    <div class="content">
-        <div class="planningGisteren">
-            <h4 class="planningGisterenFont">
-                Planning gisteren:
-            </h4>
-            Iets
-        </div>
-        <div class="planningVandaag">
-            <h4 class="planningVandaagFont">
-                Planning vandaag:
-            </h4>
-            Iets
-        </div>
-        <div class="presentie">
-            <h3 class="presentieFont">
-                Presentie:
-            </h3>
-            Iets
-        </div>
-    </div>
 </body>
 </html>
 
