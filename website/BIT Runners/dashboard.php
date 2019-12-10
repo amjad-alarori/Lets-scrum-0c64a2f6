@@ -1,6 +1,10 @@
+<?
+    $admin = true;
+?>
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
     <title>Dashboard</title>
 </head>
@@ -13,7 +17,10 @@
         <a href="planning.php">Planning</a>
         <a href="#overzicht">Absentie</a>
         <a href="changelog.php">Changelog</a>
-
+        <?
+            if($admin === true) { ?>
+                <a class="admin" href="admin.php">Admin page</a>
+            <? } ?>
         <form action="handler.php" method="post">
             <button class="logout" type="submit" name="submit-logout">Log uit</button>
         </form>
