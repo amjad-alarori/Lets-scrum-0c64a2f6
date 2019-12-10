@@ -65,10 +65,10 @@ img {
     font-family: 'Fira Mono', monospace;
 }
 
-/* .changelog_content{
-
-} */
-/*Collapse*/
+.changelog_content{
+    padding: 100px;
+} 
+/*Collapse
 
 
 

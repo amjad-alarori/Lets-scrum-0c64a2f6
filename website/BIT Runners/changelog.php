@@ -52,7 +52,6 @@
                 Timer toegevoegd. Volle functionaliteit.
                 <hr>
             </div>
-
-    </div>
+        </div>
 </body>
 </html>
