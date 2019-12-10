@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Je bent vandaag hopelijk present!';
+var txt = 'Je bent vandaag hopelijk present.';
 var speed = 50;
 
 function typeWriter() {

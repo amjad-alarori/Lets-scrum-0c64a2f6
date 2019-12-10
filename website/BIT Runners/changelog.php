@@ -20,37 +20,36 @@
         </form>
 
     </div>
-​
+
         <!-- header div voor de changelog in hoofdletters.-->
         <div id="header">
             <h1>Changelog</h1>
         </div>
-​
+
 <!-- content voor changelog. hier komen de datum en de changelog content in-->
         <div class="Changelog_content">
-​
+
             <!-- in deze class komt de flexbox om de changelog_datum rechts te krijgen en content in het midden van de changelog_content div-->
             <div class="changelog_datum">
-                <h1>6-12-2019</h1>
+                <h1>10-12-2019</h1>
             </div>
             <div class="change_input">
-                1
-                <hr>
-            </div>
-​
-            <div class="changelog_datum">
-                <h1>6-12-2019</h1>
-            </div>
-            <div class="change_input">
-                2
+                Admin page toegevoegd! Nog geen volle functionaliteit.
                 <hr>
             </div>
 
             <div class="changelog_datum">
+                <h1>9-12-2019</h1>
+            </div>
+            <div class="change_input">
+                Changelog toegevoegd!
+                <hr>
+            </div>
+            <div class="changelog_datum">
                 <h1>6-12-2019</h1>
             </div>
             <div class="change_input">
-                3
+                Timer toegevoegd. Volle functionaliteit.
                 <hr>
             </div>
 

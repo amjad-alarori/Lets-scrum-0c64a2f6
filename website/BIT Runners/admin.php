@@ -8,12 +8,11 @@
 <body onload="typeWriter();">
     <div class="navbar">
         <img src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
-        <a href="dashboard.php">Teruggaan</a>
+        <a href="dashboard.php">Dashboard</a>
         <a class="active" href="admin.php">Admin page</a>
         <form action="handler.php" method="post">
             <button class="logout" type="submit" name="submit-logout">Log uit</button>
         </form>
-
     </div>
         <script src="scripts/typewriter.js"></script>
         <div class="topinfo">
