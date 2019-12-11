@@ -1,22 +1,23 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
     <title>Dashboard</title>
 </head>
+
 <body>
     <div class="navbar">
-        <img src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
+        <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
         <a class="active" href="dashboard.php">Home</a>
-        <a href="#nieuws">Nieuws</a>
-        <a href="#timer">Focus Timer</a>
+        <a href="countdown.php">Focus Timer</a>
         <a href="vakanties.php">Vakanties</a>
-        <a href="planning.php">Planning</a>
+        <a href="planningClean.php">Planning</a>
         <a href="#overzicht">Absentie</a>
+        <a href="changelog.php">Changelog</a>
         <form action="handler.php" method="post">
-        <button type="submit" name="submit-logout">Log uit</button>
+            <button class="logout" type="submit" name="submit-logout">Log uit</button>
         </form>
-
     </div>
     <div class="topinfo">
         <h1>
@@ -48,6 +49,5 @@
         </div>
     </div>
 </body>
+
 </html>
-
-

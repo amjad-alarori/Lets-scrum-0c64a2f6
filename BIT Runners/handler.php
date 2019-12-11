@@ -1,19 +1,57 @@
 <?php
 session_start();
 $date = date("l m-d-Y h:i:s");
-$name = $_POST["naam"];
+$userName = $_POST["naam"];
+$userPass = $_POST["password"];
 
-// Login & Absent of present
-if (isset($_POST["submit-absent"])) {
+$usernameAndPassword = [["Guillermo", "123"], ["1", "11"]];
+$adminUsernameAndPassword = [["Admin", "11"],["Admin2", "Admin2"]];
+$wrongLogin = "Username or Pass incorrect";
+
+// Admin Login & Absent of present
+
+if (isset($_POST["submit-present"])) {
+    foreach ($usernameAndPassword as $user) {
+        if ($user[0] === $userName) {
+            if ($user[1] === $userPass) {
+                $choice = "present";
+                setcookie("naam", $userName);
+                setcookie("presentie", $choice);
+                header("location:planningClean.php");
+            } else {
+                $wrongLogin;
+            }
+        } else {
+            $wrongLogin;
+        }
+    }
+} elseif (isset($_POST["submit-absent"])) {
+    foreach ($usernameAndPassword as $user) {
+        if ($user[0] === $userInput) {
+            if ($user[1] === $userPass) {
+                echo "correct";
+            } else {
+                echo "Username or Pass incorrect";
+            }
+        }
+    }
     $choice = "absent";
     setcookie("naam", $name);
     setcookie("presentie", $choice);
-    header("location:planning.php");
-} elseif (isset($_POST["submit-present"])) {
-    $choice = "present";
-    setcookie("naam", $name);
-    setcookie("presentie", $choice);
-    header("location:planning.php");
+    header("location:planningClean.php");
+} elseif (isset($_POST["submit-admin"])) {
+    foreach ($adminUsernameAndPassword as $user) {
+        if ($user[0] === $userName) {
+            if ($user[1] === $userPass) {
+                setcookie("naam", $userName);
+                header("location:admin.php");
+            } else {
+                $wrongLogin;
+            }
+        } else {
+            $wrongLogin;
+        }
+    }
 }
 
 // Write to file Absent of Present 
@@ -51,13 +89,13 @@ if (isset($_POST["submit-planning"])) {
 
 // Log out
 
-if(isset($_POST["submit-logout"])) {
+if (isset($_POST["submit-logout"])) {
     $file = fopen("textfile.txt", "a") or die("Can't creat/open file.");
     $user = "Logout Time: " . $date . " Van " . $_SESSION["name"] . PHP_EOL;
     fwrite($file, $user) or die("Can't write to file.");
     fclose($file) or die("Can't close file.");
-    setcookie("naam",$name, -3600);
-    setcookie("presentie",$$choice, -3600);
+    setcookie("naam", $name, -3600);
+    setcookie("presentie", $$choice, -3600);
     session_destroy();
     header("location:login.php");
 }
