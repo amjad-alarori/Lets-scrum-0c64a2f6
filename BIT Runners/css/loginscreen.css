@@ -1,6 +1,5 @@
 body {
-    
-    background-image: url("/images/hout.jpg");
+    background-image: url("../images/hout.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -15,11 +14,11 @@ body {
 
 .login-box {
     width: 280px;
-    background: black;
+    background-color: black;
     border-radius: 10px;
     overflow: hidden;
     padding: 77px 55px 33px 55px;
-    box-shadow: 5px 5px 5px rgb(83, 76, 76);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
 }
 
 .login-form {
@@ -166,6 +165,7 @@ body {
     font-weight: bold;
     background-color: black;
     border: 2px solid #27ae60;
+    float: left;
     
 }
 .present:hover {
@@ -178,7 +178,8 @@ body {
     font-weight: bold;
     background-color: black;
     border: 2px solid gold;
-
+    display: flex;
+    justify-content: center;
 }
 .admin:hover {
     background-color: gold;

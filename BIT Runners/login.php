@@ -37,7 +37,7 @@
                     </form>
                     <form action="handlers/loginhandler.php">
                         <div>
-                            <input type="submit" value="Log-in as Admin" class="admin" name="submit-admin">
+                            <input type="submit" value="Log-in als Admin" class="admin" name="submit-admin">
                         </div>
                     </form>
             </div>
