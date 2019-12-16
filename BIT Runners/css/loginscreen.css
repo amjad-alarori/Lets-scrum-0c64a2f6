@@ -1,29 +1,28 @@
-body {
-    background-image: url("../images/hout.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+.all-content {
+    display: flex;
 }
+
 .login-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .login-box {
     width: 280px;
-    background-color: black;
+    background: black;
     border-radius: 10px;
     overflow: hidden;
-    padding: 77px 55px 33px 55px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
+    padding: 55px 55px 55px 55px;
+    box-shadow: 5px 5px 5px rgb(83, 76, 76);
 }
 
 .login-form {
     width: 280px;
-    height: 500px;
+    height: 525px;
 }
 
 .top-info {
@@ -37,6 +36,8 @@ body {
     display: flex;
     justify-content: center;
     padding: 15px;
+    height: 173px;
+    width: 253px;
 }
 
 .input, .subm-button {
@@ -69,7 +70,9 @@ body {
     outline: none;
     /* Text input underline */
 }
-
+.labels {
+    color: white;
+}
 .focus-input {
     position: absolute;
     display: block;
@@ -99,23 +102,6 @@ body {
     background: linear-gradient(left, #21d4fd, #b721ff);
 }
 
-.focus-input::after {
-    font-size: 15px;
-    color: white;
-    line-height: 1.2;
-    content: attr(data-placeholder);
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 16px;
-    left: 0px;
-    padding-left: 5px;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-}
-
 .input:focus+.focus-input::after {
     top: -15px;
 }
@@ -132,6 +118,9 @@ body {
     width: 100%;
 }
 
+.wrong-login {
+    color: white;
+}
 /*////////////////////////////////////////////////*/
 .absent, .present, .admin  {
     border: none;
@@ -146,6 +135,10 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 4px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .absent {
@@ -165,7 +158,6 @@ body {
     font-weight: bold;
     background-color: black;
     border: 2px solid #27ae60;
-    float: left;
     
 }
 .present:hover {
@@ -178,8 +170,7 @@ body {
     font-weight: bold;
     background-color: black;
     border: 2px solid gold;
-    display: flex;
-    justify-content: center;
+
 }
 .admin:hover {
     background-color: gold;
