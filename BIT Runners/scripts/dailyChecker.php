@@ -12,15 +12,14 @@ function dailyChecker($totaalAantalDagen, $day, $choice) {
         $presentCounter = 24;
         if ($choice === "absent") { 
             $presentiePercentage = $presentCounter / $totaalAantalDagen * 100;
-            echo $presentiePercentage . "%";
         }
         if ($choice === "present") {
             $presentCounter =+ 1;
             $presentiePercentage = $presentCounter / $totaalAantalDagen * 100;
-            echo $presentiePercentage . "%";
-        }  
+        } 
+        echo $presentiePercentage . "%"; 
     }
 }
 
-dailyChecker($totaalAantalDagen, $day, $choice);‎‎​
+dailyChecker ($totaalAantalDagen, $day, $choice);
 ?>

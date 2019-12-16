@@ -39,3 +39,10 @@ Logout Time: Monday 12-16-2019 10:02:58 Van
 Login Time: Monday 12-16-2019 10:03:04 Guillermo is vandaag absent
 Logout Time: Monday 12-16-2019 10:03:10 Van 
 Logout Time: Monday 12-16-2019 10:04:36 Van 
+Login Time: Monday 12-16-2019 12:14:57 Guillermo is vandaag present
+Input Time: Monday 12-16-2019 12:15:00 Planning voor vandaag van : 
+Input Time: Monday 12-16-2019 12:15:21 Planning voor vandaag van : 
+Logout Time: Monday 12-16-2019 01:02:26 Van 
+Login Time: Monday 12-16-2019 01:02:33 Guillermo is vandaag present
+Input Time: Monday 12-16-2019 01:03:05 Planning voor vandaag van : 
+Input Time: Monday 12-16-2019 01:03:15 Planning voor vandaag van : 
