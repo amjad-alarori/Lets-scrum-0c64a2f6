@@ -1,20 +1,20 @@
 <?php
 
-$usernameAndPassword = [["Guillermo", "Spa"], ["Maurits" => "Tas"], ["3" => "33"]];
+$usernameAndPassword = [["Guillermo", "123"], ["1", "11"]];
+$adminUsernameAndPassword = [["Admin", "11"],["Admin2", "Admin2"]];
 
-echo "Voer username in" . PHP_EOL;
-$userInput = readline("> ");
-if (isset($userInput)) {
-    echo "Voer wachtwoord in" . PHP_EOL;
-    $userPass = readline("> ");
-}
+echo "username aub" . PHP_EOL;
+$userName = readline("> ");
+echo "pass aub" . PHP_EOL;
+$userPass = readline("> ");
 
-foreach ($usernameAndPassword as $user) {
-    if ($user[0] === $userInput) { 
-        if($user[1] === $userPass) {
-            echo "correct";
-        } else {
-            echo "Username or Pass incorrect";
+
+if (isset($_POST["submit-present"])) {
+    foreach ($usernameAndPassword as $user) {
+        if ($user[0] === $userName) {
+            if ($user[1] === $userPass) {
+                $choice = "present";
+            } else echo "wrong pass";
         }
-     }
+    }
 }

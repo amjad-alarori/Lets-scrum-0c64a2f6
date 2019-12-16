@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <?php if(isset($_COOKIE["leerling"])) { ?>
     <div class="navbar">
         <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
         <a class="active" href="dashboard.php">Home</a>
@@ -48,6 +49,11 @@
             Iets
         </div>
     </div>
+    <?php } else { ?>
+        <div>
+            <p>U heeft geen toegang tot deze pagina</p>
+        </div>
+    <?php } ?>
 </body>
 
 </html>
