@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .all-content {
     background-image: url("/images/image1.jpg");
     position: absolute;
@@ -9,6 +10,7 @@
     height: 100%;
     height: 100%;
 }
+
 .message-container {
     width: 100%;
     display: flex;
@@ -17,14 +19,16 @@
     align-items: center;
     padding-top: 100px;
 }
+
 .form {
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
+
 .select {
     margin-top: 5px;
-    margin-bottom: 5px ;
+    margin-bottom: 5px;
     width: 250px;
 }
 
@@ -43,6 +47,7 @@
     padding: 77px 55px 33px 55px;
     box-shadow: 5px 5px 5px rgb(83, 76, 76);
 }
+
 #message {
     resize: none;
 }
@@ -83,6 +88,7 @@
     display: flex;
     justify-content: center;
 }
+
 .submit-absent {
     border: none;
     color: white;
@@ -92,7 +98,8 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* voor bob's mac */
+    -webkit-transition-duration: 0.4s;
+    /* voor bob's mac */
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 4px;
@@ -100,6 +107,7 @@
     background-color: black;
     border: 2px solid #e74c3c;
 }
+
 .submit-absent:hover {
     background-color: #e74c3c;
     color: white;
@@ -114,7 +122,8 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* voor bob's mac */
+    -webkit-transition-duration: 0.4s;
+    /* voor bob's mac */
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 4px;
@@ -122,15 +131,14 @@
     font-weight: bold;
     background-color: black;
     border: 2px solid #27ae60;
-    
 }
+
 .submit-button:hover {
     background-color: #27ae60;
     color: white;
 }
-}\
 
-.box select {
+\ .box select {
     background-color: #0563af;
     justify-content: space-around;
     border-radius: 14px;
