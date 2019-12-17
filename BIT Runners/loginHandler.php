@@ -6,6 +6,9 @@ $userPass = $_POST["password"];
 $usernameAndPassword = [["Guillermo", "123"], ["1", "11"]];
 $adminUsernameAndPassword = [["Bob", "11"], ["Admin2", "Admin2"]];
 
+$presentCounter = 50;
+$totaalAantalDagen = 100;
+
 // Admin Login & Absent of present
 
 if (isset($_POST["submit-present"])) {
@@ -13,6 +16,9 @@ if (isset($_POST["submit-present"])) {
         if ($user[0] === $userName) {
             if ($user[1] === $userPass) {
                 $choice = "present";
+                $presentCounter ++;
+                $presentiePercentage = $presentCounter / $totaalAantalDagen * 100;
+                setcookie("presentiepercentage", $presentiePercentage);
                 setcookie("naam", $userName);
                 setcookie("user", "Leerling");
                 setcookie("presentie", $choice);
@@ -28,8 +34,10 @@ if (isset($_POST["submit-present"])) {
         if ($user[0] === $userName) {
             if ($user[1] === $userPass) {
                 $choice = "absent";
+                $presentiePercentage = $presentCounter / $totaalAantalDagen * 100;
+                setcookie("presentiepercentage", $presentiePercentage);
                 setcookie("naam", $userName);
-                setcookie("User", "Leerling");
+                setcookie("user", "Leerling");
                 setcookie("presentie", $choice);
                 header("location:planning.php");
                 break;

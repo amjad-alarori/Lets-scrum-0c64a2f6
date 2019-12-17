@@ -27,7 +27,7 @@ require_once "planningHandler.php";
             </form>
         </div>
         <div class="all-content">
-            <?php if ($absentPresent === "absent") { ?>
+            <?php if (isset($_COOKIE["presentie"]) && $_COOKIE["presentie"] === "absent") { ?>
                 <div class="message-container">
                     <div class="message-box">
                         <form action="planningHandler.php" method="post" class="message-form">
@@ -36,10 +36,10 @@ require_once "planningHandler.php";
                             </div>
                             <div class="wrap-input">
                                 <div class="font">
-                                    <span style="font-family:'BrushScript BT',cursive" ;>Waarom ben je absent?</span>
+                                    <span>Waarom ben je absent?</span>
                                 </div>
                                 <div>
-                                    <textarea name="message" id="message" cols="38" rows="8"></textarea>
+                                    <textarea name="userInput" id="message" cols="38" rows="8"></textarea>
                                 </div>
                             </div>
                             <div class="button">
@@ -49,7 +49,7 @@ require_once "planningHandler.php";
                     </div>
                 </div>
             <?php }
-            if ($absentPresent === "present") { ?>
+            if (isset($_COOKIE["presentie"]) && $_COOKIE["presentie"] === "present") { ?>
                 <div class="message-container">
                     <div class="message-box">
                         <div class="logo">

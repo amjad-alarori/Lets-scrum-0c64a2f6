@@ -10,5 +10,6 @@ if (isset($_POST["submit-logout"])) {
     setcookie("naam", "", -3600);
     setcookie("presentie", "", -3600);
     setcookie("user", "", -3600);
+    setcookie("presentiepercentage", "", -3600);
     header("location:login.php");
 }
