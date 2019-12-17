@@ -10,6 +10,7 @@ require_once "planningHandler.php";
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
     <link rel="stylesheet" type="text/css" href="css/planning.css">
     <link rel="stylesheet" type="text/css" href="css/no-access.css">
+    <link rel="icon" type="image/png" href="images/target.png" />
 </head>
 
 <body>

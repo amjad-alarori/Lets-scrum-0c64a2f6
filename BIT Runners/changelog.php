@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/changelog.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/no-access.css">
+    <link rel="icon" type="image/png" href="images/change.png"/>
     <title>Changelog</title>
 </head>
 

@@ -4,7 +4,8 @@
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
     <link rel="stylesheet" type="text/css" href="css/vakanties.css">
     <link rel="stylesheet" type="text/css" href="css/no-access.css">
-    <title>vakanties</title>
+    <link rel="icon" type="image/png" href="images/hammock.png"/>
+    <title>Vakanties</title>
 </head>
 
 <body>

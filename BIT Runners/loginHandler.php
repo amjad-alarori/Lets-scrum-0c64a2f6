@@ -3,8 +3,8 @@ $date = date("l m-d-Y h:i:s");
 $userName = $_POST["name"];
 $userPass = $_POST["password"];
 
-$usernameAndPassword = [["Guillermo", "123"], ["1", "11"]];
-$adminUsernameAndPassword = [["Bob", "11"], ["Admin2", "Admin2"]];
+$usernameAndPassword = [["Guillermo", "123"], ["Amjad", "456"],["Maurits", "789"]];
+$adminUsernameAndPassword = [["Bob", "admin"], ["Guillermo", "admin"]];
 
 // Admin Login & Absent of present
 

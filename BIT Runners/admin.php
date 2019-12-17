@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/admin.css">
     <link rel="stylesheet" type="text/css" href="css/no-access.css">
     <title>Admin Page</title>
+    <link rel="icon" type="image/png" href="images/crown.png" />
 </head>
 
 <body onload="typeWriter();">

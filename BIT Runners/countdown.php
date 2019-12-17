@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/clock.css">
     <link rel="stylesheet" type="text/css" href="css/no-access.css">
+    <link rel="icon" type="image/png" href="images/timer.png"/>
     <title>Focus Timer</title>
 </head>
 
