@@ -29,7 +29,7 @@ if (isset($_POST["submit-present"])) {
             if ($user[1] === $userPass) {
                 $choice = "absent";
                 setcookie("naam", $userName);
-                setcookie("User", "Leerling");
+                setcookie("user", "Leerling");
                 setcookie("presentie", $choice);
                 header("location:planning.php");
                 break;

@@ -15,8 +15,11 @@ if (isset($_POST["submit-reden"])) {
 
 if (isset($_POST["submit-planning"])) {
     $file = fopen("textfile.txt", "a") or die("Can't creat/open file.");
-    $reden = $_POST['userInput'];
-    $user = "Input Time: " . $date . " Planning voor vandaag van " . $_COOKIE["naam"] . ": " . $reden . PHP_EOL;
+    $module = $_POST["modules"];
+    $hoofdstuk = $_POST["hoofdstuk"];
+    $opdracht = $_POST["opdracht"];
+    $planning = "module $module, hoofdstuk $hoofdstuk, opdracht $opdracht"; 
+    $user = "Input Time: " . $date . " Planning voor vandaag van " . $_COOKIE["naam"] . ": " . $planning . PHP_EOL;
     fwrite($file, $user) or die("Can't write to file.");
     fclose($file) or die("Can't close file.");
     header("location:dashboard.php");
