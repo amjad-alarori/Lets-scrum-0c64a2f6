@@ -17,3 +17,9 @@ Login Time: Tuesday 12-17-2019 10:43:26 Guillermo is vandaag present
 Logout Time: Tuesday 12-17-2019 10:44:11 Van Guillermo
 Login Time: Tuesday 12-17-2019 10:44:16 Guillermo is vandaag absent
 Input Time:  Opgegeven reden van Guillermo: 
+Login Time: Tuesday 12-17-2019 11:27:27 Guillermo is vandaag absent
+Login Time: Tuesday 12-17-2019 11:27:34 Guillermo is vandaag present
+Input Time:  Planning voor vandaag van Guillermo: module , hoofdstuk , opdracht sad
+Input Time:  Planning voor vandaag van Guillermo: module , hoofdstuk , opdracht sad
+Input Time:  Planning voor vandaag van Guillermo: module HTML / CSS - Beginner, hoofdstuk 2. Workflow, opdracht bdf
+Logout Time: Tuesday 12-17-2019 11:28:31 Van Guillermo

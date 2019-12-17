@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="particles-js"> </div>
     <div class="all-content">
         <div class="login-container">
             <div class="login-box">
@@ -47,6 +48,14 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json',
+            function() {
+                console.log('particles.json loaded...')
+            })
+    </script>
 </body>
 
 </html>

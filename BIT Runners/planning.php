@@ -62,7 +62,7 @@ require_once "planningHandler.php";
                                 <p>Wat is jouw plan voor vandaag?</p>
                             </div>
                             <div>
-                                <select class="select" name="modules">
+                                <select class="select" name="modules" required>
                                     <option value="" disabled selected hidden>- Modules -</option>
                                     <optgroup label="-- Modules --">
                                         <option value="Development - Start">Development - Start</option>
@@ -81,7 +81,7 @@ require_once "planningHandler.php";
                                         <option value="Project 3 - Eindproject Jaar 1">Project 3 - Eindproject Jaar 1</option>
                                         <option value="Stage 1">Stage 1</option>
                                 </select>
-                                <select class="select" name="hoofdstuk">
+                                <select class="select" name="hoofdstuk" required>
                                     <option value="" disabled selected hidden>- Hoofdstuk -</option>
                                     <optgroup label="-- Development - Start --">
                                         <option value="1. How to get started">1. How to get started</option>
