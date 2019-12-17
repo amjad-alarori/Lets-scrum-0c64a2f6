@@ -35,7 +35,7 @@
     background-image: linear-gradient(to bottom right, #d980fa, #9980fa);
     color: white;
   }
-  img {
+  .navbar img {
     padding-right: 10px;
     float: right;
     width: 45px;
