@@ -23,3 +23,4 @@ Input Time:  Planning voor vandaag van Guillermo: module , hoofdstuk , opdracht 
 Input Time:  Planning voor vandaag van Guillermo: module , hoofdstuk , opdracht sad
 Input Time:  Planning voor vandaag van Guillermo: module HTML / CSS - Beginner, hoofdstuk 2. Workflow, opdracht bdf
 Logout Time: Tuesday 12-17-2019 11:28:31 Van Guillermo
+Login Time: Tuesday 12-17-2019 12:32:17 Guillermo is vandaag present
