@@ -1,0 +1,43 @@
+.no-access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 5px 5px 5px rgb(83, 76, 76);
+}
+.submit-terug {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid #e74c3c;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* voor bob's mac */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.submit-terug:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.no-access-div {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+.no-access-content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}

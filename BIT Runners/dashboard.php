@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <?php if(isset($_COOKIE["leerling"])) { ?>
+    <?php if(isset($_COOKIE["User"])) { ?>
     <div class="navbar">
         <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
         <a class="active" href="dashboard.php">Home</a>
@@ -28,25 +28,26 @@
             Je bent vandaag <? echo $_COOKIE["presentie"]; ?>!
         </h3>
     </div>
-
-    <div class="content">
-        <div class="planningGisteren">
-            <h4 class="planningGisterenFont">
-                Planning gisteren:
-            </h4>
-            Iets
-        </div>
-        <div class="planningVandaag">
-            <h4 class="planningVandaagFont">
-                Planning vandaag:
-            </h4>
-            Iets
-        </div>
-        <div class="presentie">
-            <h3 class="presentieFont">
-                Presentie:
-            </h3>
-            Iets
+    <div class="fullpage">
+        <div class="content">
+            <div class="planningGisteren">
+                <h4 class="planningGisterenFont">
+                    Planning gisteren:
+                </h4>
+                Iets
+            </div>
+            <div class="planningVandaag">
+                <h4 class="planningVandaagFont">
+                    Planning vandaag:
+                </h4>
+                Iets
+            </div>
+            <div class="presentie">
+                <h3 class="presentieFont">
+                    Presentie:
+                </h3>
+                Iets
+            </div>
         </div>
     </div>
     <?php } else { ?>

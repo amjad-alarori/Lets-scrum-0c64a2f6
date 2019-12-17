@@ -1,8 +1,5 @@
-body {
-    
-    background-image: url("images/hout.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+html{
+ height: 100%;
 }
 .message-container {
     width: 100%;
@@ -12,6 +9,7 @@ body {
     align-items: center;
     padding-top: 100px;
 }
+
 .question {
     color: white;
 }
@@ -52,66 +50,44 @@ body {
     justify-content: center;
 }
 
-/* textarea {
-  outline: none;
-  justify-content: center;
-  border-radius: 14px;
-  overflow: auto;
-  opacity: 0.87;
-  text-align: justify;
-  
-} */
-
-
 .submitButton {
-	box-shadow: -3px 3px 6px 0px #8a2a21;
-	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-	background-color:#c62d1f;
-	border-radius:14px;
-	border:3px solid #d02718;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Trebuchet MS;
-	font-size:11px;
-	font-weight:bold;
-	padding:9px 33px;
-	text-decoration:none;
-	text-shadow:-3px 2px 3px #810e05;
+    box-shadow: -3px 3px 6px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color: #c62d1f;
+    border-radius: 14px;
+    border: 3px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 9px 33px;
+    text-decoration: none;
+    text-shadow: -3px 2px 3px #810e05;
 }
-
 
 .submitButton1 {
-	box-shadow: -3px 3px 6px 0px green;
-    background:linear-gradient(to bottom, green 5%, green 100%);
-	background-color:#2ed43c;
-	border-radius:14px;
-	border:3px solid #36a315;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Trebuchet MS;
-	font-size:11px;
-	font-weight:bold;
-	padding:9px 33px;
-	text-decoration:none;
-    text-shadow:-3px 2px 3px #129b1e;
-    
+    box-shadow: -3px 3px 6px 0px green;
+    background: linear-gradient(to bottom, green 5%, green 100%);
+    background-color: #2ed43c;
+    border-radius: 14px;
+    border: 3px solid #36a315;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 9px 33px;
+    text-decoration: none;
+    text-shadow: -3px 2px 3px #129b1e;
 }
- 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #004882;
-  }
-  
- 
-  
 
-  .box select {
+.box select {
     background-color: #0563af;
     justify-content: space-around;
-    border-radius:14px;
+    border-radius: 14px;
     color: white;
     padding: 12px;
     width: 80px;
@@ -121,9 +97,9 @@ body {
     -webkit-appearance: button;
     appearance: button;
     outline: none;
-  }
-  
-  .box::before {
+}
+
+.box::before {
     content: "\f13a";
     font-family: FontAwesome;
     position: absolute;
@@ -137,10 +113,8 @@ body {
     color: rgba(255, 255, 255, 0.5);
     background-color: rgba(255, 255, 255, 0.1);
     pointer-events: none;
-  }
-  
- 
-  
-  .box select option {
+}
+
+.box select option {
     padding: 20px;
-  }
+}

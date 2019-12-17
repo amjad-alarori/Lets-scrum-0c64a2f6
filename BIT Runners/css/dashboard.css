@@ -1,15 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-}
-body {
+  }
+  html,
+  body {
+    height: 100%;
     font-family: Arial, sans-serif;
-}
-.navbar {
-    background-image: linear-gradient(to bottom right, #4b4b4b, #3d3d3d);
     overflow: hidden;
-}
-.navbar a {
+  }
+  .navbar {
+    background-image: linear-gradient(#4b4b4b, #3d3d3d);
+    overflow: hidden;
+  }
+  .navbar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -18,77 +21,96 @@ body {
     font-size: 17px;
     -webkit-transition-duration: 0.4s; /* voor bob's mac */
     transition-duration: 0.4s;
-}
-.navbar a:hover {
-    background-image: linear-gradient(to bottom right, #D980FA, #9980FA);
-    color: white;    
-}
-.navbar a.active {
-    background-image: linear-gradient(to bottom right, #D980FA, #9980FA);
+  }
+  .admin:hover {
+    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  }
+  a:hover {
+    /* background-color: #ED4C67; */
+    background-image: linear-gradient(to bottom right, #d980fa, #9980fa);
     color: white;
-}
-.logout {
-    padding: 8px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 10px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: #3d3d3d;
+  }
+  .navbar a.active {
+    background-image: linear-gradient(to bottom right, #d980fa, #9980fa);
     color: white;
-    border: 2px solid #EA2027;
-    float: right;
-}
-.logout:hover {
-    background-color: #EA2027;
-    color: white;
-}
-.navLogo {
+  }
+  img {
     padding-right: 10px;
     float: right;
     width: 45px;
     height: 45px;
-}
-.topinfo {
+  }
+  .logout {
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 10px;
+    -webkit-transition-duration: 0.4s; /* Bob's mac */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #3d3d3d;
+    color: white;
+    border: 2px solid #ea2027;
+    float: right;
+  }
+  .logout:hover {
+    background-color: #ea2027;
+    color: white;
+  }
+  .fullpage {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #d980fa, #9980fa);
+  }
+  .topinfo {
     padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 100px;
-    background-color: white;
-}
-div {
-    /*border: 1px solid red;*/
-}
-.content {
+    padding-bottom: 20px;
+    color: white;
+    background-image: linear-gradient(#3d3d3d, #4b4b4b);
+  }
+  /* div {
+      border: 1px solid red;
+  } */
+  .content {
+    padding-top: 100px;
     margin-right: 10px;
     margin-left: 10px;
     /*border: 1px solid black;*/
     /*border-radius: 5px;*/
     display: flex;
     justify-content: space-around;
-}
-
-.planningGisteren {
+  }
+  
+  .planningGisteren {
     margin-left: 20px;
     padding: 20px;
     width: 350px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
-}
-.planningVandaag {
+    background-color: #4b4b4b;
+    color: white;
+    box-shadow: 5px 5px 5px #3d3d3d;
+  }
+  .planningVandaag {
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
     width: 350px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
-}
-.presentie {
+    background-color: #4b4b4b;
+    color: white;
+    box-shadow: 5px 5px 5px #3d3d3d;
+  }
+  .presentie {
     margin-right: 20px;
     padding: 20px;
     width: 350px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
-}
+    background-color: #4b4b4b;
+    color: white;
+    box-shadow: 5px 5px 5px #3d3d3d;
+  }
+  

@@ -1,0 +1,51 @@
+Login Time: Wednesday 12-11-2019 12:41:11 Guillermo is vandaag present
+Logout Time: Wednesday 12-11-2019 12:43:37 Van 
+Logout Time: Wednesday 12-11-2019 12:43:52 Van 
+Logout Time: Wednesday 12-11-2019 12:45:21 Van 
+Login Time: Wednesday 12-11-2019 01:02:15 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:02:42 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:03:18 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:06:40 Guillermo is vandaag present
+Logout Time: Wednesday 12-11-2019 01:06:41 Van 
+Login Time: Wednesday 12-11-2019 01:07:44 Guillermo is vandaag present
+Logout Time: Wednesday 12-11-2019 01:11:31 Van 
+Login Time: Wednesday 12-11-2019 01:11:49 Guillermo is vandaag present
+Logout Time: Wednesday 12-11-2019 01:13:21 Van 
+Logout Time: Wednesday 12-11-2019 01:13:29 Van 
+Logout Time: Wednesday 12-11-2019 01:15:08 Van 
+Login Time: Wednesday 12-11-2019 01:23:46 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:24:05 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:25:21 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:26:05 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:27:25 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:28:15 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:28:40 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:29:16 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:29:27 Guillermo is vandaag present
+Login Time: Wednesday 12-11-2019 01:36:19 Guillermo is vandaag present
+Login Time: Monday 12-16-2019 09:39:16 Guillermo is vandaag present
+Login Time: Monday 12-16-2019 09:41:52 Guillermo is vandaag present
+Login Time: Monday 12-16-2019 09:45:27 Guillermo is vandaag present
+Login Time: Monday 12-16-2019 09:45:39 Guillermo is vandaag present
+Login Time: Monday 12-16-2019 09:48:23 Guillermo is vandaag present
+Logout Time: Monday 12-16-2019 09:50:27 Van 
+Login Time: Monday 12-16-2019 09:50:34 Guillermo is vandaag present
+Login Time: Monday 12-16-2019 09:54:11 Guillermo is vandaag present
+Logout Time: Monday 12-16-2019 09:54:13 Van 
+Login Time: Monday 12-16-2019 09:57:19 Guillermo is vandaag present
+Logout Time: Monday 12-16-2019 09:57:21 Van 
+Login Time: Monday 12-16-2019 10:02:54 Guillermo is vandaag present
+Logout Time: Monday 12-16-2019 10:02:58 Van 
+Login Time: Monday 12-16-2019 10:03:04 Guillermo is vandaag absent
+Logout Time: Monday 12-16-2019 10:03:10 Van 
+Logout Time: Monday 12-16-2019 10:04:36 Van 
+Login Time: Monday 12-16-2019 12:14:57 Guillermo is vandaag present
+Input Time: Monday 12-16-2019 12:15:00 Planning voor vandaag van : 
+Input Time: Monday 12-16-2019 12:15:21 Planning voor vandaag van : 
+Logout Time: Monday 12-16-2019 01:02:26 Van 
+Login Time: Monday 12-16-2019 01:02:33 Guillermo is vandaag present
+Input Time: Monday 12-16-2019 01:03:05 Planning voor vandaag van : 
+Input Time: Monday 12-16-2019 01:03:15 Planning voor vandaag van : 
+Login Time: Tuesday 12-17-2019 08:09:23 Guillermo is vandaag present
+Input Time: Tuesday 12-17-2019 08:09:35 Planning voor vandaag van : 
+Input Time: Tuesday 12-17-2019 08:10:50 Planning voor vandaag van : 
