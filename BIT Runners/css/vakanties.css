@@ -1,32 +1,41 @@
-.content {
+    .vacayContent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .vacay-container {
+    margin-left: 20px;
+    margin-top: 20px;
     align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
     height: 300px;
     width: 600px;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #3d3d3d;
 }
 
 #kerstvakantie {
-    /* background-color: rgb(189, 189, 189); */
+    color: white;
+    background-color: #4B4B4B;
+    
 }
 #voorjaarsvakantie {
-    /* background-color: rgb(165, 165, 165); */
+    color: white;
+    background-color: #4B4B4B;
 }
 
 #meivakantie {
-    /* background-color: rgb(143, 143, 143); */
+    color: white;
+    background-color: #4B4B4B;
 }
 
 #zomervakantie {
-    /* background-color: rgb(83, 83, 83); */
+    color: white;
+    background-color: #4B4B4B;
 }
 
 .timer {

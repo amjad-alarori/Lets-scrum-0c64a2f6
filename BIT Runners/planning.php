@@ -58,9 +58,9 @@ require_once "planningHandler.php";
                         <div class="question">
                             <p>Wat is jouw plan voor vandaag?</p>
                         </div>
-                        <form action="planningHandler.php" method="post">
+                        <form action="#" method="post">
                             <div>
-                                <select name="modules">
+                                <select name="modules" onchange="this.form.submit()">
                                     <option value="" disabled selected hidden>- Modules -</option>
                                     <optgroup label="-- Modules --">
                                         <option value="Development - Start">Development - Start</option>
@@ -79,10 +79,14 @@ require_once "planningHandler.php";
                                         <option value="Project 3 - Eindproject Jaar 1">Project 3 - Eindproject Jaar 1</option>
                                         <option value="Stage 1">Stage 1</option>
                                 </select>
+                                <?php echo $_POST["modules"] ?>
                                 <select name="hoofdstuk">
                                     <option value="" disabled selected hidden>- Hoofdstuk -</option>
                                     <optgroup label="-- Development - Start --">
                                         <option value="1. How to get started">1. How to get started</option>
+
+                                        <?php if (isset($_POST["modules"]) && $_POST["modules"] === "HTML / CSS - Beginner") { ?>
+
                                     <optgroup label="-- HTML / CSS - Beginner --">
                                         <option value="1. Mijn profiel">1. Mijn profiel</option>
                                         <option value="2. Mijn profiel - gestyled">2. Mijn profiel - gestyled</option>
@@ -91,6 +95,9 @@ require_once "planningHandler.php";
                                         <option value="5. Periodic Table">5. Periodic Table</option>
                                         <option value="6. * Google Copy *">6. * Google Copy *</option>
                                         <option value="7. * Is Jarvis that difficult? *">7. * Is Jarvis that difficult? *</option>
+
+                                    <?php } ?>
+
                                     <optgroup label="-- HTML / CSS - Advanced --">
                                         <option value="1. CSS Advanced">1. CSS Advanced</option>
                                         <option value="2. Flexbox Toegepast">2. Flexbox Toegepast</option>
@@ -152,7 +159,7 @@ require_once "planningHandler.php";
             <?php } ?>
         </div>
     <?php }
-        if (!isset($_COOKIE["user"])) { ?>
+                                if (!isset($_COOKIE["user"])) { ?>
         <div class="no-access-div">
             <div class="no-access">
                 <div class="no-access-content">
