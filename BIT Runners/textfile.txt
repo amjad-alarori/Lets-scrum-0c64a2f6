@@ -1,3 +1,19 @@
 Logout Time: Tuesday 12-17-2019 10:00:21 Van Guillermo
 Logout Time: Tuesday 12-17-2019 10:00:55 Van Bob
 Login Time: Tuesday 12-17-2019 10:05:40 Guillermo is vandaag present
+Logout Time: Tuesday 12-17-2019 10:25:14 Van Guillermo
+Login Time: Tuesday 12-17-2019 10:25:22 Guillermo is vandaag present
+Input Time:  Planning voor vandaag van Guillermo: module HTML / CSS - Beginner, hoofdstuk 2. Workflow, opdracht sada
+Logout Time: Tuesday 12-17-2019 10:28:25 Van Guillermo
+Login Time: Tuesday 12-17-2019 10:28:31 Guillermo is vandaag present
+Input Time:  Planning voor vandaag van Guillermo: module , hoofdstuk , opdracht 
+Input Time:  Planning voor vandaag van Guillermo: module , hoofdstuk , opdracht 
+Logout Time: Tuesday 12-17-2019 10:28:42 Van Guillermo
+Login Time: Tuesday 12-17-2019 10:31:11 Guillermo is vandaag absent
+Login Time: Tuesday 12-17-2019 10:32:31 Guillermo is vandaag present
+Login Time: Tuesday 12-17-2019 10:39:49 Guillermo is vandaag absent
+Input Time:  Opgegeven reden van Guillermo: 
+Login Time: Tuesday 12-17-2019 10:43:26 Guillermo is vandaag present
+Logout Time: Tuesday 12-17-2019 10:44:11 Van Guillermo
+Login Time: Tuesday 12-17-2019 10:44:16 Guillermo is vandaag absent
+Input Time:  Opgegeven reden van Guillermo: 

@@ -2,6 +2,9 @@
 // Form
 $absentPresent = $_COOKIE["presentie"];
 
+if (isset($_POST["submit-reden"]) || isset($_POST["submit-planning"])) {
+    setcookie("setplanning", "YES");
+}
 
 // Planning Write To File
 if (isset($_POST["submit-reden"])) {

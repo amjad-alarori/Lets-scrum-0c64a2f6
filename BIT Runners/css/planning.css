@@ -9,12 +9,15 @@ html{
     align-items: center;
     padding-top: 100px;
 }
+.form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
 .select {
     margin-top: 5px;
     margin-bottom: 5px ;
     width: 250px;
-    display: flex;
-    flex-direction: column;
 }
 
 .question {
@@ -31,6 +34,9 @@ html{
     overflow: hidden;
     padding: 77px 55px 33px 55px;
     box-shadow: 5px 5px 5px rgb(83, 76, 76);
+}
+#message {
+    resize: none;
 }
 
 .message-form {
@@ -65,21 +71,30 @@ html{
     justify-content: center;
 }
 
-.submitButton {
-    box-shadow: -3px 3px 6px 0px #8a2a21;
-    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-    background-color: #c62d1f;
-    border-radius: 14px;
-    border: 3px solid #d02718;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Trebuchet MS;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 9px 33px;
+.submit-button-absent {
+    display: flex;
+    justify-content: center;
+}
+.submit-absent {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
     text-decoration: none;
-    text-shadow: -3px 2px 3px #810e05;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* voor bob's mac */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid #e74c3c;
+}
+.submit-absent:hover {
+    background-color: #e74c3c;
+    color: white;
 }
 
 .submit-button {
@@ -105,7 +120,7 @@ html{
     background-color: #27ae60;
     color: white;
 }
-}
+}\
 
 .box select {
     background-color: #0563af;

@@ -9,6 +9,7 @@
 
 <body>
     <?php if (isset($_COOKIE["user"]) && $_COOKIE["user"] === "Leerling") { ?>
+        
         <div class="navbar">
             <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
             <a href="dashboard.php">Home</a>

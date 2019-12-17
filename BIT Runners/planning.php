@@ -14,18 +14,20 @@ require_once "planningHandler.php";
 
 <body>
     <?php if (isset($_COOKIE["user"]) && $_COOKIE["user"] === "Leerling") { ?>
-        <div class="navbar">
-            <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
-            <a href="dashboard.php">Home</a>
-            <a href="countdown.php">Focus Timer</a>
-            <a href="vakanties.php">Vakanties</a>
-            <a class="active" href="planning.php">Planning</a>
-            <a href="#overzicht">Absentie</a>
-            <a href="changelog.php">Changelog</a>
-            <form action="logoutHandler.php" method="post">
-                <button class="logout" type="submit" name="submit-logout">Log uit</button>
-            </form>
-        </div>
+        <?php if (isset($_COOKIE["setplanning"]) && $_COOKIE["setplanning"] === "YES") { ?>
+            <div class="navbar">
+                <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
+                <a href="dashboard.php">Home</a>
+                <a href="countdown.php">Focus Timer</a>
+                <a href="vakanties.php">Vakanties</a>
+                <a class="active" href="planning.php">Planning</a>
+                <a href="#overzicht">Absentie</a>
+                <a href="changelog.php">Changelog</a>
+                <form action="logoutHandler.php" method="post">
+                    <button class="logout" type="submit" name="submit-logout">Log uit</button>
+                </form>
+            </div>
+        <?php } ?>
         <div class="all-content">
             <?php if (isset($_COOKIE["presentie"]) && $_COOKIE["presentie"] === "absent") { ?>
                 <div class="message-container">
@@ -39,11 +41,11 @@ require_once "planningHandler.php";
                                     <span>Waarom ben je absent?</span>
                                 </div>
                                 <div>
-                                    <textarea name="userInput" id="message" cols="38" rows="8"></textarea>
+                                    <textarea name="userInput" id="message" cols="38" rows="8" required></textarea>
                                 </div>
                             </div>
-                            <div class="button">
-                                <input class="logout" type="submit" name="submit-reden">
+                            <div class="submit-button-absent">
+                                <input class="submit-absent" type="submit" name="submit-reden">
                             </div>
                         </form>
                     </div>
@@ -55,10 +57,10 @@ require_once "planningHandler.php";
                         <div class="logo">
                             <img alt="BIT Runners" src="images/BITRunnersLogo.png" />
                         </div>
-                        <div class="question">
-                            <p>Wat is jouw plan voor vandaag?</p>
-                        </div>
-                        <form action="planningHandler.php" method="post">
+                        <form class="form" action="planningHandler.php" method="post">
+                            <div class="question">
+                                <p>Wat is jouw plan voor vandaag?</p>
+                            </div>
                             <div>
                                 <select class="select" name="modules">
                                     <option value="" disabled selected hidden>- Modules -</option>
@@ -141,7 +143,7 @@ require_once "planningHandler.php";
                                 </select>
                             </div>
                             <div class="textarea">
-                                <textarea name="opdracht" id="" cols="40" rows="7" placeholder="Bij welke opdracht ben je momenteel, en wat is de planning?"></textarea>
+                                <textarea name="opdracht" id="message" cols="40" rows="7" placeholder="Bij welke opdracht ben je momenteel, en wat is de planning?" required></textarea>
                             </div>
                             <div class="sent">
                                 <button class="submit-button" type="submit" name="submit-planning">Verzenden</button>
