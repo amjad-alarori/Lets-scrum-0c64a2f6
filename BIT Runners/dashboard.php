@@ -3,55 +3,66 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="css/no-access.css">
     <title>Dashboard</title>
 </head>
 
 <body>
-    <?php if(isset($_COOKIE["leerling"])) { ?>
-    <div class="navbar">
-        <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
-        <a class="active" href="dashboard.php">Home</a>
-        <a href="countdown.php">Focus Timer</a>
-        <a href="vakanties.php">Vakanties</a>
-        <a href="planningClean.php">Planning</a>
-        <a href="#overzicht">Absentie</a>
-        <a href="changelog.php">Changelog</a>
-        <form action="handler.php" method="post">
-            <button class="logout" type="submit" name="submit-logout">Log uit</button>
-        </form>
-    </div>
-    <div class="topinfo">
-        <h1>
-            Goedemorgen, <? echo $_COOKIE["naam"]; ?>!
-        </h1>
-        <h3>
-            Je bent vandaag <? echo $_COOKIE["presentie"]; ?>!
-        </h3>
-    </div>
-
-    <div class="content">
-        <div class="planningGisteren">
-            <h4 class="planningGisterenFont">
-                Planning gisteren:
-            </h4>
-            Iets
+    <?php if (isset($_COOKIE["user"]) && $_COOKIE["user"] === "Leerling") { ?>
+        <div class="navbar">
+            <img class="navLogo" src="images/BITRunnesLogo_Zondertekst.png" alt="BITRunners">
+            <a class="active" href="dashboard.php">Home</a>
+            <a href="countdown.php">Focus Timer</a>
+            <a href="vakanties.php">Vakanties</a>
+            <a href="planning.php">Planning</a>
+            <a href="#overzicht">Absentie</a>
+            <a href="changelog.php">Changelog</a>
+            <form action="logoutHandler.php" method="post">
+                <button class="logout" type="submit" name="submit-logout">Log uit</button>
+            </form>
         </div>
-        <div class="planningVandaag">
-            <h4 class="planningVandaagFont">
-                Planning vandaag:
-            </h4>
-            Iets
-        </div>
-        <div class="presentie">
-            <h3 class="presentieFont">
-                Presentie:
+        <div class="topinfo">
+            <h1>
+                Goedemorgen, <? echo $_COOKIE["naam"]; ?>!
+            </h1>
+            <h3>
+                Je bent vandaag <? echo $_COOKIE["presentie"]; ?>!
             </h3>
-            Iets
         </div>
-    </div>
-    <?php } else { ?>
-        <div>
-            <p>U heeft geen toegang tot deze pagina</p>
+
+        <div class="content">
+            <div class="planningGisteren">
+                <h4 class="planningGisterenFont">
+                    Planning gisteren:
+                </h4>
+                Iets
+            </div>
+            <div class="planningVandaag">
+                <h4 class="planningVandaagFont">
+                    Planning vandaag:
+                </h4>
+                Iets
+            </div>
+            <div class="presentie">
+                <h3 class="presentieFont">
+                    Presentie:
+                </h3>
+                Iets
+            </div>
+        </div>
+    <?php }
+                            if (!isset($_COOKIE["user"])) { ?>
+        <div class="no-access-div">
+            <div class="no-access">
+                <div class="no-access-content">
+                    <p>U dient in te loggen om toegang tot deze pagina te verkrijgen</p>
+                </div>
+                <div class="no-access-content">
+                    <form action="backToLoginHandler.php" method="post">
+                        <button class="submit-terug" type="submit" name="submit-terug">Terug naar Log-In</button>
+                    </form>
+                </div>
+            </div>
         </div>
     <?php } ?>
 </body>

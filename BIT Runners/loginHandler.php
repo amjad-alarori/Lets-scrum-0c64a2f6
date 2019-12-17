@@ -4,7 +4,7 @@ $userName = $_POST["name"];
 $userPass = $_POST["password"];
 
 $usernameAndPassword = [["Guillermo", "123"], ["1", "11"]];
-$adminUsernameAndPassword = [["Admin", "11"], ["Admin2", "Admin2"]];
+$adminUsernameAndPassword = [["Bob", "11"], ["Admin2", "Admin2"]];
 
 // Admin Login & Absent of present
 
@@ -13,8 +13,8 @@ if (isset($_POST["submit-present"])) {
         if ($user[0] === $userName) {
             if ($user[1] === $userPass) {
                 $choice = "present";
-                setcookie("naam", $name);
-                setcookie("User", "Leerling");
+                setcookie("naam", $userName);
+                setcookie("user", "Leerling");
                 setcookie("presentie", $choice);
                 header("location:planning.php");
                 break;
@@ -28,7 +28,7 @@ if (isset($_POST["submit-present"])) {
         if ($user[0] === $userName) {
             if ($user[1] === $userPass) {
                 $choice = "absent";
-                setcookie("naam", $name);
+                setcookie("naam", $userName);
                 setcookie("User", "Leerling");
                 setcookie("presentie", $choice);
                 header("location:planning.php");
@@ -43,6 +43,7 @@ if (isset($_POST["submit-present"])) {
         if ($user[0] === $userName) {
             if ($user[1] === $userPass) {
                 setcookie("naam", $userName);
+                setcookie("user", "Admin");
                 header("location:admin.php");
                 break;
             }
@@ -54,13 +55,12 @@ if (isset($_POST["submit-present"])) {
 
 // Write to file Absent of Present 
 if (isset($choice)) {
-    $_SESSION["name"] = $userName;
+    $_COOKIE["naam"] = $userName;
     $file = fopen("textfile.txt", "a") or die("Unable to open file!");
-    $user = "Login Time: " . $date . " " . $_SESSION["name"] . " is vandaag $choice"  . PHP_EOL;
+    $user = "Login Time: " . $date . " " . $userName . " is vandaag $choice"  . PHP_EOL;
     fwrite($file, $user);
     fclose($file);
 }
-
 
 // Form
 $absentPresent = $_COOKIE["presentie"];
