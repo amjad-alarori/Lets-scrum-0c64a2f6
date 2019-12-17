@@ -16,7 +16,7 @@ if (isset($_POST["submit-present"])) {
         if ($user[0] === $userName) {
             if ($user[1] === $userPass) {
                 $choice = "present";
-                $presentCounter ++;
+                $presentCounter++;
                 $presentiePercentage = $presentCounter / $totaalAantalDagen * 100;
                 setcookie("presentiepercentage", $presentiePercentage);
                 setcookie("naam", $userName);

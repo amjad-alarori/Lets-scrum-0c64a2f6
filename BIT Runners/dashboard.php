@@ -24,7 +24,7 @@
         </div>
         <div class="topinfo">
             <h1>
-                Goedemorgen, <? echo $_COOKIE["naam"]; ?>!
+                Goedemorgen <? echo $_COOKIE["naam"]; ?>!
             </h1>
             <h3>
                 Je bent vandaag <? echo $_COOKIE["presentie"]; ?>!

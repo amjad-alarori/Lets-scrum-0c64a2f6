@@ -20,3 +20,12 @@ Logout Time: Tuesday 12-17-2019 12:03:11 Van 1
 Login Time: Tuesday 12-17-2019 12:03:14 1 is vandaag absent
 Input Time:  Opgegeven reden van 1: aii no neef
 Logout Time: Tuesday 12-17-2019 12:04:04 Van 1
+Logout Time: Tuesday 12-17-2019 12:05:47 Van Bob
+Login Time: Tuesday 12-17-2019 12:05:55 1 is vandaag absent
+Input Time:  Opgegeven reden van 1: d
+Logout Time: Tuesday 12-17-2019 12:06:00 Van 1
+Login Time: Tuesday 12-17-2019 12:06:03 1 is vandaag present
+Input Time:  Planning voor vandaag van 1: module Git - Beginner, hoofdstuk 2. Mijn profiel - gestyled, opdracht qq
+Logout Time: Tuesday 12-17-2019 12:06:09 Van 1
+Login Time: Tuesday 12-17-2019 12:06:14 1 is vandaag present
+Input Time:  Planning voor vandaag van 1: module Git - Beginner, hoofdstuk 1. Mijn profiel, opdracht 1
