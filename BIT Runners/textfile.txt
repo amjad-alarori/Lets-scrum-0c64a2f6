@@ -1,0 +1,33 @@
+Choice Time: Tuesday 12-10-2019 11:36:41 Guillermo is vandaag present
+Input Time: Tuesday 12-10-2019 11:36:46 Planning voor vandaag van Guillermo: 
+Input Time: Tuesday 12-10-2019 12:20:54 Planning voor vandaag van Guillermo: 
+Logout Time: Tuesday 12-10-2019 01:14:25 Van Guillermo
+Choice Time: Tuesday 12-10-2019 01:22:29 g is vandaag present
+Input Time: Tuesday 12-10-2019 01:22:30 Planning voor vandaag van g: 
+Logout Time: Tuesday 12-10-2019 01:28:51 Van g
+Choice Time: Tuesday 12-10-2019 03:43:16  is vandaag present
+Logout Time: Tuesday 12-10-2019 03:43:19 Van 
+Choice Time: Tuesday 12-10-2019 03:43:23  is vandaag present
+Logout Time: Tuesday 12-10-2019 03:43:25 Van 
+Choice Time: Tuesday 12-10-2019 03:44:58  is vandaag present
+Logout Time: Tuesday 12-10-2019 03:45:02 Van 
+Choice Time: Tuesday 12-10-2019 03:46:41  is vandaag present
+Logout Time: Tuesday 12-10-2019 03:46:46 Van 
+Logout Time: Tuesday 12-10-2019 03:48:52 Van 
+Choice Time: Tuesday 12-10-2019 03:49:15  is vandaag present
+Logout Time: Tuesday 12-10-2019 03:49:19 Van 
+Logout Time: Tuesday 12-10-2019 03:49:33 Van 
+Choice Time: Tuesday 12-10-2019 03:50:05  is vandaag present
+Logout Time: Tuesday 12-10-2019 03:50:07 Van 
+Logout Time: Tuesday 12-10-2019 03:50:35 Van 
+Choice Time: Tuesday 12-10-2019 03:51:22  is vandaag present
+Logout Time: Tuesday 12-10-2019 03:51:24 Van 
+Logout Time: Tuesday 12-10-2019 03:51:57 Van 
+Choice Time: Friday 12-13-2019 09:29:05  is vandaag present
+Logout Time: Friday 12-13-2019 09:30:14 Van 
+Choice Time: Tuesday 12-17-2019 03:12:21  is vandaag present
+Input Time: Tuesday 12-17-2019 03:28:06 Planning voor vandaag van : 
+Input Time: Tuesday 12-17-2019 04:21:17 Planning voor vandaag van : 
+Input Time: Tuesday 12-17-2019 04:26:09 Planning voor vandaag van : 
+Choice Time: Tuesday 12-17-2019 04:51:56  is vandaag present
+Choice Time: Wednesday 12-18-2019 07:42:33  is vandaag present
