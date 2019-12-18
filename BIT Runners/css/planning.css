@@ -44,7 +44,7 @@
     background: black;
     border-radius: 10px;
     overflow: hidden;
-    padding: 77px 55px 33px 55px;
+    padding: 25px 55px 33px 55px;
     box-shadow: 5px 5px 5px rgb(83, 76, 76);
 }
 
@@ -172,3 +172,103 @@
 .box select option {
     padding: 20px;
 }
+
+
+
+.select-style {
+    border: 1px solid #0563af;
+    width: 200px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #0563af;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+
+.active-pink-textarea.md-form label.active {
+    color: #f48fb1;
+  }
+  .pink-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+  }
+  .pink-textarea.md-form .prefix.active {
+    color: #f48fb1;
+  }
+  .active-pink-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #f48fb1;
+  }
+  
+  .active-amber-textarea.md-form label.active {
+    color: #ffa000;
+  }
+  .amber-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ffa000;
+    box-shadow: 0 1px 0 0 #ffa000;
+  }
+  .amber-textarea.md-form .prefix.active {
+    color: #ffa000;
+  }
+  .active-amber-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #ffa000;
+  }
+  
+  .active-pink-textarea-2 textarea.md-textarea {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+  }
+  .active-pink-textarea-2.md-form label.active {
+    color: #f48fb1;
+  }
+  .active-pink-textarea-2.md-form label {
+    color: #f48fb1;
+  }
+  .active-pink-textarea-2.md-form .prefix {
+    color: #f48fb1;
+  }
+  .active-pink-textarea-2.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #f48fb1;
+  }
+  
+  .active-amber-textarea-2 textarea.md-textarea {
+    border-bottom: 1px solid #ffa000;
+    box-shadow: 0 1px 0 0 #ffa000;
+  }
+  .active-amber-textarea-2.md-form label.active {
+    color: #ffa000;
+  }
+  .active-amber-textarea-2.md-form label {
+    color: #ffa000;
+  }
+  .active-amber-textarea-2.md-form .prefix {
+    color: #ffa000;
+  }
+  .active-amber-textarea-2.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #ffa000;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: #0563af;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

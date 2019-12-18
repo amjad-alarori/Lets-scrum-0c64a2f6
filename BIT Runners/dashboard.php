@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
     <link rel="stylesheet" type="text/css" href="css/no-access.css">
+    <link rel="stylesheet" type="text/css" href="css/progress.php">
     <link rel="icon" type="image/png" href="images/home.png"/>
     <title>Dashboard</title>
 </head>
@@ -48,7 +49,9 @@
                     <h3 class="presentieFont">
                         Presentie:
                     </h3>
-                    Iets
+                    <div class="container">
+                        <div class="presentiebar"><? echo $_COOKIE["presentiepercentage"] . "%"; ?></div>
+                    </div>
                 </div>
             </div>
         </div>
