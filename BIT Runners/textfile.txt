@@ -29,3 +29,7 @@ Input Time:  Planning voor vandaag van 1: module Git - Beginner, hoofdstuk 2. Mi
 Logout Time: Tuesday 12-17-2019 12:06:09 Van 1
 Login Time: Tuesday 12-17-2019 12:06:14 1 is vandaag present
 Input Time:  Planning voor vandaag van 1: module Git - Beginner, hoofdstuk 1. Mijn profiel, opdracht 1
+Logout Time: Tuesday 12-17-2019 01:32:07 Van 1
+Logout Time: Tuesday 12-17-2019 01:33:58 Van Bob
+Login Time: Tuesday 12-17-2019 01:34:00 1 is vandaag present
+Input Time:  Planning voor vandaag van 1: module Git - Beginner, hoofdstuk 2. Mijn profiel - gestyled, opdracht 1
