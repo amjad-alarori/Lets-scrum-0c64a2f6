@@ -1,8 +1,0 @@
-Login Time: Wednesday 12-18-2019 08:30:29 Guillermo is vandaag present
-Input Time:  Planning voor vandaag van Guillermo: module gitbeginner, hoofdstuk 2. Workflow, opdracht dwwa
-Input Time:  Planning voor vandaag van Guillermo: module DevelopmentStart, hoofdstuk HTML / CSS - Beginner, opdracht dwwa
-Logout Time: Wednesday 12-18-2019 09:19:28 Van Guillermo
-Login Time: Wednesday 12-18-2019 09:36:17 Guillermo is vandaag present
-Input Time:  Planning voor vandaag van Guillermo: module HTMLCSSAdvanced, hoofdstuk 1. CSS Advanced, opdracht klm
-Logout Time: Wednesday 12-18-2019 09:37:19 Van Guillermo
-Logout Time: Wednesday 12-18-2019 09:38:30 Van Bob

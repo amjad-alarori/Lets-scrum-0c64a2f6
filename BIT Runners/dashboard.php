@@ -37,13 +37,13 @@
                     <h4 class="planningGisterenFont">
                         Planning gisteren:
                     </h4>
-                    Iets
+                    <?php echo $_COOKIE["planGisteren"]; ?>
                 </div>
                 <div class="planningVandaag">
                     <h4 class="planningVandaagFont">
                         Planning vandaag:
                     </h4>
-                    Iets
+                    <?php echo $_COOKIE["planVandaag"]; ?>
                 </div>
                 <div class="presentie">
                     <h3 class="presentieFont">

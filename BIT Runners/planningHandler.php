@@ -1,4 +1,9 @@
 <?php
+require "planVandaagEnGisterenHandler.php";
+
+$date = date("l m-d-Y h:i:s");
+$planVoorDag = date("m-d-Y");
+
 // Form
 $absentPresent = $_COOKIE["presentie"];
 
@@ -22,8 +27,10 @@ if (isset($_POST["submit-planning"])) {
     $hoofdstuk = $_POST["hoofdstuk"];
     $opdracht = $_POST["opdracht"];
     $planning = "module $module, hoofdstuk $hoofdstuk, opdracht $opdracht"; 
-    $user = "Input Time: " . $date . " Planning voor vandaag van " . $_COOKIE["naam"] . ": " . $planning . PHP_EOL;
+    $user = "Input Time: " . $date . " Planning voor " . $planVoorDag . " van " . $_COOKIE["naam"] . ":: " . $planning . PHP_EOL;
     fwrite($file, $user) or die("Can't write to file.");
     fclose($file) or die("Can't close file.");
+    setcookie("planVandaag", planVandaag());
+    setcookie("planGisteren", planGisteren());
     header("location:dashboard.php");
 }
