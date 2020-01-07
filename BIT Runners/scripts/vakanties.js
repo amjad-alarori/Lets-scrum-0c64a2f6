@@ -1,4 +1,4 @@
-var kerst = new Date("dec 23, 2019 00:00:00").getTime();
+var kerst = new Date("dec 23, 2020 00:00:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var kd = kerst - now;
