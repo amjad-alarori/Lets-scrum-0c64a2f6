@@ -1,0 +1,63 @@
+    .vacayContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vacay-container {
+    margin-left: 20px;
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #3d3d3d;
+}
+
+#kerstvakantie {
+    color: white;
+    background-color: #4B4B4B;
+    
+}
+#voorjaarsvakantie {
+    color: white;
+    background-color: #4B4B4B;
+}
+
+#meivakantie {
+    color: white;
+    background-color: #4B4B4B;
+}
+
+#zomervakantie {
+    color: white;
+    background-color: #4B4B4B;
+}
+
+.timer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.countd {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 10px;
+    font-size: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.countd span {
+    display: block;
+    font-size: 26px;
+    margin-top: 14px;
+}
